@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Plan Your Trip</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+  {% include 'header.html' %}
+  {% block header %}
+  {% endblock %}
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">
+      Take A Tour!!
+      <br>
+      <label style="font-size: large;">Explore unique places to stay and things to do</label>
+    </h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <a href='/country/Singapore'>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Singapore</div>
+            <img src="/static/images/singapore.jpg" alt="singapore" style="width:100%; height: 220px;">
+        </div>
+      </div>
+    </a>
+    <a href='/country/London'>
+  <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">London</div>
+        <img src="/static/images/photo-1505761671935-60b3a7427bad.jpg" alt="london" style="width:100%; height: 220px;">
+      </div>
+    </div>
+  </a>
+  <a href='/country/India'>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">India</div>
+        <img src="/static/images/india.jpg" alt="india" style="width:100%; height: 220px;">
+      </div>
+    </div>
+  </a>
+    <a href='/country/France'>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">France</div>
+        <img src="/static/images/eiffel-tower.jpg" alt="france" style="width:100%; height: 220px;">
+      </div>
+    </div>
+  </a>
+    <a href='/country/New Zealand'>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">New Zealand</div>
+        <img src="/static/images/new-zealand.jpg" alt="new new-zealand" style="width:100%; height: 220px;">
+      </div>
+    </div>
+  </a>
+    <a href='/country/Italy'>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Italy</div>
+        <img src="/static/images/rome.jpg" alt="rome" style="width:100%; height: 220px;">
+      </div>
+    </div>
+  </a>
+    <a href='/country/Thailand'>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Thailand</div>
+        <img src="/static/images/thai.jpg" alt="phuket" style="width:100%; height: 220px;">
+      </div>
+    </div>
+  </a>
+    <a href='/country/United States'>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">United States</div>
+        <img src="/static/images/us.jpg" alt="us" style="width:100%; height: 220px;">
+      </div>
+    </div>
+  </a>   
+  </div>
+
+  {% include 'contact.html'%}
+  {% block contact %}
+  {% endblock %}
+
+</body>
